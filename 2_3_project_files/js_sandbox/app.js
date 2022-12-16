@@ -1,9 +1,14 @@
 // var, let, const
 
-// var name = 'John Doe';
+// var name = "John Doe";
 // console.log(name);
-// name = 'Steve Smith';
+// name = "Steve Smith";
 // console.log(name);
+
+var name = "John Doe";
+console.log(name);
+name = "Steve Smith";
+console.log(name);
 
 // // Init var
 // var greeting;
@@ -27,7 +32,6 @@
 // name = 'Steve Smith';
 // console.log(name);
 
-
 // CONST
 // const name = 'John';
 // console.log(name);
@@ -37,16 +41,16 @@
 // const greeting;
 
 const person = {
-  name: 'John',
-  age: 30
-}
+  name: "John",
+  age: 30,
+};
 
-person.name = 'Sara';
+person.name = "Sara";
 person.age = 32;
 
 // console.log(person);
 
-const numbers = [1,2,3,4,5];
+const numbers = [1, 2, 3, 4, 5];
 numbers.push(6);
 
 console.log(numbers);
