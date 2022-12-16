@@ -26,7 +26,7 @@ console.log(greeting);
 // // Multi word vars
 // var firstName = 'John'; // Camel case
 // var first_name = 'Sara'; // Underscore
-// var FirstName = 'Tom'; // Pascal case
+// var FirstName = 'Tom'; // Pascal case - use for Classes and Constructor Functions
 // var firstname;
 
 // LET
