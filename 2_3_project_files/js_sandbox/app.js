@@ -5,10 +5,10 @@
 // name = "Steve Smith";
 // console.log(name);
 
-var name = "John Doe";
-console.log(name);
-name = "Steve Smith";
-console.log(name);
+// var name = "John Doe";
+// console.log(name);
+// name = "Steve Smith";
+// console.log(name);
 
 // // Init var
 // var greeting;
@@ -36,6 +36,12 @@ console.log(greeting);
 // name = 'Steve Smith';
 // console.log(name);
 
+// let name;
+// name = "John Doe";
+// console.log(name);
+// name = "Steve Smith";
+// console.log(name);
+
 // CONST
 // const name = 'John';
 // console.log(name);
@@ -44,17 +50,24 @@ console.log(greeting);
 // Have to assign a value
 // const greeting;
 
+const name = "John";
+console.log(name);
+// name = "Sara";
+
 const person = {
   name: "John",
   age: 30,
 };
 
+console.log(person);
+
 person.name = "Sara";
 person.age = 32;
 
-// console.log(person);
+console.log(person);
 
 const numbers = [1, 2, 3, 4, 5];
+console.log(numbers);
 numbers.push(6);
 
 console.log(numbers);
