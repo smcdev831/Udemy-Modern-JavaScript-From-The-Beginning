@@ -15,6 +15,10 @@ console.log(name);
 // console.log(greeting);
 // greeting = 'Hello';
 // console.log(greeting);
+var greeting;
+console.log(greeting);
+greeting = "Hello";
+console.log(greeting);
 
 // // letters, numbers, _, $
 // // Can not start with number
