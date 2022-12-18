@@ -41,15 +41,45 @@ console.log(val.length);
 
 // toString()
 val = (5).toString();
+console.log(val);
+console.log(typeof val);
+console.log(val.length);
+
 val = true.toString();
+console.log(val);
+console.log(typeof val);
+console.log(val.length);
 
 // String to number
 val = Number("5");
+console.log(val);
+console.log(typeof val);
+console.log(val.toFixed());
+
 val = Number(true);
+console.log(val);
+console.log(typeof val);
+console.log(val.toFixed());
+
 val = Number(false);
+console.log(val);
+console.log(typeof val);
+console.log(val.toFixed());
+
 val = Number(null);
+console.log(val);
+console.log(typeof val);
+console.log(val.toFixed());
+
 val = Number("hello");
+console.log(val);
+console.log(typeof val);
+console.log(val.toFixed());
+
 val = Number([1, 2, 3]);
+console.log(val);
+console.log(typeof val);
+console.log(val.toFixed());
 
 val = parseInt("100.30");
 val = parseFloat("100.30");
