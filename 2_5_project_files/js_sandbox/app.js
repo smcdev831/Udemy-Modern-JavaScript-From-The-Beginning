@@ -82,7 +82,14 @@ console.log(typeof val);
 console.log(val.toFixed());
 
 val = parseInt("100.30");
+console.log(val);
+console.log(typeof val);
+console.log(val.toFixed());
+
 val = parseFloat("100.30");
+console.log(val);
+console.log(typeof val);
+console.log(val.toFixed());
 
 // Output
 // console.log(val);
